@@ -1,0 +1,224 @@
+h1 {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3 {
+    font-family: "Noto Sans", sans-serif;
+
+}
+
+h4 {
+    font-family: "Noto Sans", sans-serif;
+
+}
+
+h5 {
+    font-family: "Noto Sans", sans-serif;
+
+}
+
+h6 {
+    font-family: "Noto Sans", sans-serif;
+
+}
+p {
+    font-family: "Noto Sans", sans-serif;
+}
+
+.nav-item {
+    font-family: "Noto Sans", sans-serif;
+}
+#Header-line{
+    background-color: #154D71;
+}
+.nav-link{
+    color: #fff;
+}
+#Header-line .nav-link.active {
+  color: white !important;
+}
+#Header-line .nav-pills .nav-link.active {
+  background-color: #1C6EA4;
+  color: white;
+}
+.gradient-background {
+  background: linear-gradient(300deg, #154D71, #1C6EA4, #33A1E0, #FFF9AF, #BED4CB, #F6F09F);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.profile-img{
+    border-radius: 50%;
+}
+.btn-primary{
+    background-color: #154D71;
+    border-color: #154D71;
+}
+.text-home{
+    background-color: #fff;
+}
+.ba-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feature-section1{
+    background-color: #BED4CB;
+}
+.fancy-list {
+  list-style: none;   /* remove default bullets */
+  padding-left: 0;
+}
+
+.fancy-list li {
+  position: relative;
+  padding-left: 28px; /* space for the square */
+  margin-bottom: 8px;
+}
+
+.fancy-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.5em;
+  width: 12px;
+  height: 12px;
+  background-color: #BED4CB; /* YOUR custom colour */
+}
+
+
+
+
+
+/* ================================
+   CV SECTION — MATCHED TO YOUR THEME
+================================ */
+
+.cv-section{
+  background: linear-gradient(300deg, #BED4CB, #F6F09F);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+/* Title bars */
+.cv-titlebar{
+  background: #1C6EA4;
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 0.6rem;
+  padding: 0.7rem 0.9rem;
+  backdrop-filter: blur(10px);
+}
+
+/* Section headings use your project font */
+.cv-titlebar-text{
+  font-family: "Alfa Slab One", serif;
+  font-size: 0.95rem;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: #fff/* soft highlight */
+}
+
+/* Icon squares */
+.cv-badge{
+  width: 22px;
+  height: 22px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.35rem;
+  font-weight: 900;
+  color: #0f0f0f;
+  line-height: 1;
+}
+
+.cv-badge-green{ background: #BED4CB; }
+.cv-badge-blue { background: #33A1E0; }
+
+/* Cards */
+.cv-card,
+.cv-sidecard{
+  background: #fff;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 0.85rem;
+  padding: 1.1rem;
+  backdrop-filter: blur(6px);
+}
+
+/* Card titles */
+.cv-h3{
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.15rem;
+  font-weight: 800;
+  
+}
+
+.cv-subtitle{
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.85rem;
+  
+}
+
+.cv-dates{
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.cv-body{
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.96rem;
+  line-height: 1.7;
+  }
+
+/* Skills */
+.cv-skill-label{
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  }
+
+/* Progress bars */
+.cv-bar{
+  height: 14px;
+  background: rgba(255,255,255,0.15);
+  border-radius: 0.4rem;
+  overflow: hidden;
+}
+
+.cv-fill{
+  display: block;
+  height: 100%;
+  border-radius: 0.4rem;
+  transition: width 0.8s ease;
+}
+
+/* Skill colours mapped to your palette */
+.c-blue   { background: #33A1E0; }
+.c-dark   { background: #1C6EA4; }
+.c-soft   { background: #BED4CB; }
+.c-warm   { background: #B35656; }
+.c-light  { background: #FFF9AF; color:#333; }
+
+.icon-pill{
+    color: #154D71;
+}
